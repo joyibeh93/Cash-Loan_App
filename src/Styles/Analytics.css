@@ -1,0 +1,57 @@
+:root {
+    /*** background colors ***/
+    --main-bg-clr: #f7f7f7;
+    --otp-bg-clr: #dfdede;
+    --input-bg-clr: #b9bdc2;
+    --sign-up-btn-bg-clr: #172232;
+    --next-btn-bg-clr: #172232;
+    --submit-btn-bg-clr: #172232;
+    --side-bar-bg-clr: #252d39;
+    --dashboard-top-bg-clr: #252d39;
+    --dashboard-bg-clr: #f7f7f7;
+    --existing-btn-bg-clr: #b9bdc2;
+    --new-btn-bg-clr: #ff6f5a;
+    --approved-btn-bg-clr: #169872;
+    --rejected-btn-bg-clr: #fd3d39;
+    --pending-btn-bg-clr: #c0f5f9;
+    --credit-score-bg-clr: #b9bdc2;
+    --excellent-btn-bg-clr: #169872;
+    --good-btn-bg-clr: #747a85;
+    --user-icon-bg-clr: #747a85;
+    --defaulted-bg-clr: #fd3d39;
+    --paid-bg-clr: #169872;
+    --congratulations-bg-clr: #454e5c;
+  
+    /*** text colors ***/
+    --main-text-color: #172232;
+    --sign-up-cl: #f7f7f7;
+    --label-clr: #747a74;
+    --input-clr: #747a85;
+    --next-submit-reset-clr: #f7f7f7;
+    --quote-text-clr: #f7f7f7;
+    --steps-clr: #f7f7f7;
+  
+    /* font family */
+    --font-family-body: 'Inter', sans-serif;
+    --font-size: 1rem;
+  }
+
+.existing{
+    background-color: var(--existing-btn-bg-clr);
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+    
+}
+.AnalyticsChart{
+    width: 900px;
+    margin-left:20px;
+    background-color:#b9bdc288 ;
+    border: 3px sold var(--credit-score-bg-clr); 
+    border-radius: 10px;
+}
+.chartAnalystics{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

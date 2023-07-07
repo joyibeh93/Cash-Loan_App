@@ -1,0 +1,58 @@
+.bvn-header {
+   margin-left: 50px;
+  }
+  
+  .bvn-container {
+    max-width: 600px;
+    /*margin: 0 auto;
+    padding: 25px;*/
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    max-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 50px;
+    border-radius: 5px;
+    padding: 0px 40px;
+  }
+  
+  
+  .input-field {
+    width: 90%;
+    padding: 0.625rem 0.3125rem;
+    border-radius: 0;
+    border:1px solid black;
+  }
+  .file-field{
+    padding:0 0.3125rem 1.5625rem 0px;
+    border: none;
+  }
+  
+  .submit-button {
+    width: 35%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-bottom: 1.5625rem;
+  }
+  .btn-file-submit{
+    margin-bottom: 5rem;
+  }
+  .bank-statement{
+    margin-top: 4.375rem;
+  }
+  .bank-details{
+    padding: 0;
+  }
+  .upload-pdf{
+    padding-top: 0.625rem;
+  }
+
+  h3 {
+    /* margin-top: 10px; */
+    border-bottom: 1px solid black ;
+  }
+  
+  

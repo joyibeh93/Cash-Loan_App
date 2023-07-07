@@ -1,0 +1,151 @@
+:root {
+  /*** background colors ***/
+  --main-bg-clr: #f7f7f7;
+  --otp-bg-clr: #dfdede;
+  --input-bg-clr: #b9bdc2;
+  --sign-up-btn-bg-clr: #172232;
+  --next-btn-bg-clr: #172232;
+  --submit-btn-bg-clr: #172232;
+  --side-bar-bg-clr: #252d39;
+  --dashboard-top-bg-clr: #252d39;
+  --dashboard-bg-clr: #f7f7f7;
+  --existing-btn-bg-clr: #b9bdc2;
+  --new-btn-bg-clr: #ff6f5a;
+  --approved-btn-bg-clr: #169872;
+  --rejected-btn-bg-clr: #fd3d39;
+  --pending-btn-bg-clr: #52898d;
+  --credit-score-bg-clr: #b9bdc2;
+  --excellent-btn-bg-clr: #169872;
+  --good-btn-bg-clr: #747a85;
+  --user-icon-bg-clr: #747a85;
+  --defaulted-bg-clr: #fd3d39;
+  --paid-bg-clr: #169872;
+  --congratulations-bg-clr: #454e5c;
+
+  /*** text colors ***/
+  --main-text-color: #172232;
+  --sign-up-cl: #f7f7f7;
+  --label-clr: #747a74;
+  --input-clr: #747a85;
+  --next-submit-reset-clr: #f7f7f7;
+  --quote-text-clr: #f7f7f7;
+  --steps-clr: #f7f7f7;
+
+  /* font family */
+  --font-family-body: 'Inter', sans-serif;
+  --font-size: 1rem;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+.exit-new button {
+  margin-left: 0.8rem;
+  width: 110px;
+  padding: 12px 0px;
+}
+.notifctn-header1{
+  color: var(--main-text-color);
+}
+.exisiting {
+  background-color: var(--existing-btn-bg-clr);
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+.new {
+  background-color: var(--new-btn-bg-clr);
+  color: var(--main-bg-clr);
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+.dash-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dashboard-bg-clr);
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin: 2rem 0px;
+}
+
+
+.approved {
+  background-color: var(--approved-btn-bg-clr);
+  color: var(--main-bg-clr);
+  border: none;
+  padding: 0.25rem 1.4rem;
+  border-radius:0.3rem;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+}
+.approvedTransparent{
+  position:absolute;
+  top:17.rem;
+  left: 32.8rem;
+ 
+}
+.pending {
+  background-color: hsl(184, 40%, 59%);
+  color: var(--);
+  border: none;
+  padding: 0.20rem 1.4rem;
+  font-size: 0.8rem;
+  border-radius:0.3rem;
+  margin-left: 0.4rem;
+} 
+.icn{
+  color: #000000d2;
+}
+.pendingTransparent{
+  position:absolute;
+  top:17.5rem;
+  left: 57.8rem;
+
+}
+.rejected {
+  background-color: var(--rejected-btn-bg-clr);
+  color: var(--main-bg-clr);
+  border: none;
+  padding: 0.25rem 1.4rem;
+  border-radius:0.3rem;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+}
+.rejected-icon{
+  position:absolute;
+  top:17.4rem;
+  left: 82.5rem;
+}
+.approved-black {
+  position: absolute;
+  left: 39.5rem;
+  bottom: 27rem;
+  width: 1.875rem;
+} 
+.pending-black {
+  position: absolute;
+  left: 61.5rem;
+  bottom: 27rem;
+  width: 1.875rem;
+}
+
+.rejected-black {
+  position: absolute;
+  left: 86.9rem;
+  bottom: 27rem;
+  width: 1.875rem;
+} 
+.ddownload-icon{
+  color: #f0f1f321;
+}
+.loan-count {
+  margin: 0.5rem 0;
+}

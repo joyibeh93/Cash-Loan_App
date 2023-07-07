@@ -1,0 +1,12 @@
+.Line{
+    width: 900px;
+    margin-left:20px;
+    background-color:#b9bdc288 ;
+    border: 3px sold var(--credit-score-bg-clr); 
+    border-radius: 10px;
+}
+.chart-description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

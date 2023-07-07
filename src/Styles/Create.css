@@ -1,0 +1,84 @@
+.mode{
+    margin: 3em;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%; 
+      height: 92%;
+      background-color: rgb(235, 235, 250);
+      padding: 2.5rem;
+      border-radius: 5px;
+      box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      text-align: center;
+    }
+    .close-btn{
+        color: grey;
+        position: relative;
+        top: -0.5em;
+        right: -20em;
+    }
+    
+   .heading-mode{
+    text-align: left;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10em; 
+    padding: 0 5em;
+    }
+    .format{
+        text-align: left;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 10em;  
+        padding: 0 5em;
+      }
+      .format-input{
+        border-radius: 5px;
+        width: 30em;
+        padding: 1em;
+        margin-top: 1em;
+        font-family: var(--font-family-body);
+        outline: 0;
+       border: 1px solid #747a85;
+      }
+      .form-input{
+        border-radius: 5px;
+        width: 10em;
+        padding: 1em;
+        margin-top: 1em;
+        font-family: var(--font-family-body);
+        outline: 0;
+       border: 1px solid #747a85;
+      }
+    .foot-mode{
+     text-align: left;
+     width: 100%; 
+     align-items: flex-start;
+     
+    }
+    .save{
+        background-color: #ff6f5a;
+        padding: 0.5em 2em 0.5em 2em;
+        border-radius: 5px;
+        align-items: flex-end;
+    }
+    .MainBody{
+      margin-bottom: 7em;
+      background-color: white;
+    }
+.body{
+        margin-top: 1em;
+        left: -0.5em;
+    } 

@@ -1,0 +1,100 @@
+.Signup3-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  padding: 3em;
+  margin-left: 40px;
+  margin-top: 140px;
+}
+
+/* .button {
+  font-family: var(--font-family-body);
+  background-color: var(--submit-btn-bg-clr);
+  padding: 0.6em;
+  border-radius: 0.75em;
+  margin-top: 0.125em;
+  text-align: center;
+  width: 70%;
+  margin-left: 3em;
+} */
+
+/* .b-signup1 {
+  line-height: 2.5;
+  width: 26em;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  font-family: var(--font-family-body);
+  background-color: var(--submit-btn-bg-clr);
+} */
+.b-signup3{
+  font-family: var(--font-family-body);
+  background-color: var(--submit-btn-bg-clr);
+  padding: 0.6em;
+  outline: none;
+  border-radius: 0.5em;
+  /* margin-top: 0.125em; */
+  text-align: center;
+  width: 25em;
+}
+
+.b-signup3 button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.eye {
+  position: absolute;
+  left: 77em;
+  top: 25em;
+}
+/* .eye{
+  position: absolute;
+  top: 22em;
+  left: 74em;
+} */
+
+.eye2 {
+  position: absolute;
+  top: 20em;
+  left: 77em;
+  cursor: pointer;
+}
+
+.terms-signin {
+  margin-top: 5em;
+  margin-left: 7em;
+  font-size: 0.8rem;
+  font-family: var(--font-family-body);
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 90%;
+  margin-top: 0.5rem;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+.step3-trm{
+  margin-top: 5em;
+  margin-left: 8em;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

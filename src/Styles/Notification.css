@@ -1,0 +1,21 @@
+.note-table tr td {
+  border-radius: 0;
+    text-align: left;
+    margin-right: 120px;
+    padding: 0.6rem 2rem;
+    line-height: 1.5em;
+}
+.noteheader{
+    color: green;
+    font-weight: bold;
+}
+.note-cnt{
+    margin-left: 15px;
+}
+.note_td{
+    display: flex;
+    
+}
+.note-msg-cnt{
+    margin-left: 150px;
+}

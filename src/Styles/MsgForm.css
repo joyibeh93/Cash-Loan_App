@@ -1,0 +1,126 @@
+.msg-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f6f7;
+    width: 100%;
+    padding-top: 0.5em;
+    border-bottom: rgb(49, 45, 45);
+}
+
+.new-msg{
+  position: relative;  
+  left: 1em;
+}
+
+.new-msg > h2{
+    color: #172232;
+}
+
+.email-div{
+    display: flex;
+    position: relative;
+    left: 0.3em;
+}
+
+.email-label{
+    font-size: 15px;
+    position: relative;
+    top: 0.4em;
+    right: 1em;
+    color: #172232;
+}
+
+.email{
+    padding: 1.2em 0 1.2em 0;
+    border: 1px solid #b9bdc2;
+    height: 2em;
+    width: 20em;
+    border-radius: 5px;
+}
+
+.email::placeholder{
+    position: relative;
+    left: 0.5em;
+}
+
+.ellipses1{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0.1em;
+    right: 1.5em;
+}
+
+.linediv{
+    height: 1px;
+    width: 70%;
+    color: grey
+}
+
+.msg-title{
+    background-color: #f2f6f7;
+    height: 5em;
+    width: 20em;
+    position: relative;
+    left: -0.8em;
+    top: 1em;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.lab-el{
+    display: flex;
+    justify-content: space-between;
+}
+
+.msg-title-input{
+    border: none;
+    background-color: #f4f6f8;
+    height: 2em;
+}
+
+.ellipses2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.body{
+    position: relative;
+    left: 3em;
+    top: -5em;
+    font-size: 15px;
+    color: #1c2b42;
+}
+
+.up-angle{
+    position: relative;
+    left: 65em;
+    top: 1em;
+    cursor: pointer;
+}
+
+textarea{
+    position: relative;
+    top: 5em;
+    left: -6em;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea::placeholder{
+    font-size: 15px;
+    margin-bottom: 0.5em;
+}
+
+.send{
+    position: relative;
+    top: 4em;
+    margin-bottom: 1.5em;
+    background-color: #ff6f5a;
+    color: #f4f6f8;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 5px;
+}
+
+input , textarea:focus{
+    outline: none;
+}

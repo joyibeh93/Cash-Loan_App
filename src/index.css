@@ -1,0 +1,201 @@
+:root {
+  /*** background colors ***/
+  --main-bg-clr: #f7f7f7;
+  --otp-bg-clr: #dfdede;
+  --input-bg-clr: #b9bdc2;
+  --sign-up-btn-bg-clr: #172232;
+  --next-btn-bg-clr: #172232;
+  --submit-btn-bg-clr: #172232;
+  --side-bar-bg-clr: #252d39;
+  --dashboard-top-bg-clr: #252d39;
+  --dashboard-bg-clr: #f7f7f7;
+  --existing-btn-bg-clr: #b9bdc2;
+  --new-btn-bg-clr: #ff6f5a;
+  --approved-btn-bg-clr: #169872;
+  --rejected-btn-bg-clr: #fd3d39;
+  --pending-btn-bg-clr: #c0f5f9;
+  --credit-score-bg-clr: #b9bdc2;
+  --excellent-btn-bg-clr: #169872;
+  --good-btn-bg-clr: #747a85;
+  --user-icon-bg-clr: #747a85;
+  --defaulted-bg-clr: #fd3d39;
+  --paid-bg-clr: #169872;
+  --congratulations-bg-clr: #454e5c;
+
+  /*** text colors ***/
+  --main-text-color: #172232;
+  --sign-up-cl: #f7f7f7;
+  --label-clr: #747a74;
+  --input-clr: #747a85;
+  --next-submit-reset-clr: #f7f7f7;
+  --quote-text-clr: #f7f7f7;
+  --steps-clr: #f7f7f7;
+
+  /* font family */
+  --font-family-body: 'Inter', sans-serif;
+  --font-size: 1rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--font-family-body);
+  color: var(--main-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  /* margin-left: 7.25em; */
+}
+
+/********************* blue backround section *************************/
+.left-side {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.background-container {
+  display: flex;
+  background-image: url(./assets/5623076\ 1.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.check {
+  width: 12em;
+  margin-top: 0.7em;
+}
+
+.steps-container {
+  margin-top: 5em;
+  margin-left: 4em;
+  padding: 0 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: var(--steps-clr);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-top: 5.5em;
+}
+
+.logo img {
+  margin-right: 0.2em;
+}
+
+.input-checkbox input[type='checkbox'] {
+  /* Hide the default checkbox */
+  visibility: hidden;
+}
+
+.input-checkbox label {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 17em;
+  position: absolute;
+  width: 28px;
+}
+
+/* .input-checkbox label::after {
+  content: '';
+  position: absolute;
+  bottom: -48.8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: #fff;
+} */
+
+.input-checkbox label:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.input-checkbox .task-completed label:after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--dashboard-top-bg-clr);
+  background-color: var(--main-bg-clr);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authenticate {
+  display: flex;
+  justify-content: center;
+}
+
+.desc {
+  font-size: 0.8rem;
+  margin-bottom: 3em;
+  color: var(--credit-score-bg-clr);
+}
+
+.step-num {
+  text-transform: uppercase;
+}
+
+.num {
+  margin-bottom: 1em;
+}
+
+/******************** end of blue background section **************************/
+
+/* ********** button styles *****************/
+button {
+  font-family: var(--font-family-body);
+  font-size: 1rem;
+}

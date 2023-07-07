@@ -1,0 +1,80 @@
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-search {
+  width: 15.85rem;
+  height: 2.1875rem;
+  margin-top: -0.125rem;
+  padding:0px 45px;
+  border-radius:6px;
+  border:0;
+}
+.navbar-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchicon {
+  position: absolute;
+  top: 1.06rem;
+  left: 2.1rem;
+  width: 18px;
+}
+.bell {
+  margin-right: 1rem;
+}
+/* .right-arrow {
+  position: absolute;
+  top: 0.8rem;
+  left: 29.5rem;
+}
+.navbar-userIcon {
+  margin-right: 0.5rem;
+}
+.name-desc {
+  font-size: 0.75rem;
+} */
+
+/* .right-arrow {
+  Remove absolute positioning
+
+} */
+
+.navbar-item {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 79%;
+  display: flex;
+  align-items: center;
+  background-color: var(--side-bar-bg-clr);
+  z-index: 999;
+  padding: 8px 20px;
+  margin-left: 22%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 1.2rem;
+  left: 15rem;
+}
+
+.navbar-userIcon {
+  margin-right: 0.5rem;
+}
+
+.name-desc {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.navbar-userIcon {
+  margin-right: 0.5rem;
+}
+
+.name-desc {
+  font-size: 0.75rem;
+  margin-left: 0.5rem; /* Add margin to align with other elements */
+}
