@@ -58,6 +58,13 @@
 .sidelogo2{
   width:90px;
 } 
+.sidebar-items1 {
+  position: absolute;
+  top: 3.5rem;
+  left: 2rem;
+  color: #fff;
+  margin-top: 2rem;
+}
 
 .links {
   display: flex;
