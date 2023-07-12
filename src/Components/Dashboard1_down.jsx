@@ -6,6 +6,7 @@ import userIcon from '../assets/user-icon.svg';
 import approvedTransparent from '../assets/approved-transparent.svg';
 import rejectedTransparent from '../assets/rejected-transparent.svg';
 import pendingTransparent from '../assets/pending-transparent.svg';
+import Paginatination from './paginatination';
 import { Link } from "react-router-dom"
 
 const DashBoard1_Down = () => {
@@ -55,7 +56,7 @@ const DashBoard1_Down = () => {
             <td>810</td>
             <td>N 35,000.00</td>
             <td>
-              <img src={download} alt="" className='dashDown-img' />
+              <img src={download} alt="download" className='dashDown-img' />
             </td>
           </tr>
           <tr>
@@ -101,6 +102,8 @@ const DashBoard1_Down = () => {
           </tr>
         </tbody>
       </table>
+      <Paginatination/>
+  
     </div>
   );
 };

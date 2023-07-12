@@ -6,10 +6,10 @@ import Quote from './Quote';
 
 const LoginBg = () => {
   return (
-    <div>
+    
       <div className="background">
         <div className="background-image">
-          <img src={Laptopimg} alt="laptop-img" />
+          <img src={Laptopimg} alt="laptop-img" className="LaptopImg"/>
         </div>
         <div className="logo-container">
           <Logo />
@@ -18,7 +18,7 @@ const LoginBg = () => {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 

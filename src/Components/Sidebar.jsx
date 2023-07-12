@@ -114,7 +114,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-log">
-        <Logo sideb="10px" />
+        <Logo  />
       </div>
 
       <div className="sidebar-items1">

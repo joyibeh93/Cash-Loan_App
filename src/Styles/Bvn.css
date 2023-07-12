@@ -1,18 +1,18 @@
 .bvn-header {
-   margin-left: 50px;
+   margin-left: 3.125rem;
   }
   
   .bvn-container {
-    max-width: 600px;
+    max-width: 37.5rem;
     /*margin: 0 auto;
     padding: 25px;*/
     border: 1px solid grey;
     background-color: #f2f2f2;
-    max-height: 230px;
+    max-height: 14.395rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 10px 50px;
+    margin: 0.625rem 3.125rem;
     border-radius: 5px;
     padding: 0px 40px;
   }

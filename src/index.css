@@ -94,8 +94,8 @@ a {
 }
 
 .steps-container {
-  margin-top: 5em;
-  margin-left: 4em;
+  margin-top: 14em;
+  margin-left: 11em;
   padding: 0 3em;
   display: flex;
   flex-direction: column;
@@ -104,17 +104,19 @@ a {
   color: var(--steps-clr);
 }
 
-.logo {
-  display: flex;
+/* .logo { */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 1em;
-  margin-top: 5.5em;
-}
+  align-items: center; */
+  /* position: absolute;
+  top:160px */
+  /* margin-left: 20em;
+  margin-top: 34.5em; */
+/* } */
 
-.logo img {
-  margin-right: 0.2em;
-}
+/* .logo img {
+  margin-right: 0em;
+} */
 
 .input-checkbox input[type='checkbox'] {
   /* Hide the default checkbox */
@@ -127,7 +129,8 @@ a {
   border-radius: 50%;
   cursor: pointer;
   height: 28px;
-  left: 17em;
+  margin-top: 0.7em;
+  left: 18em;
   position: absolute;
   width: 28px;
 }

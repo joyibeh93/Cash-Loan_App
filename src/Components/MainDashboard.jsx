@@ -72,6 +72,7 @@ import { useNavigate } from 'react-router-dom';
         </div>
         <img src={rejectedBlack} className="rejected-black" alt="" />
       </div>
+      
     </div>
   );
 }

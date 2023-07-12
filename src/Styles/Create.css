@@ -9,7 +9,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       width: 50%; 
-      height: 92%;
+      height: 86%;
       background-color: rgb(235, 235, 250);
       padding: 2.5rem;
       border-radius: 5px;
@@ -18,10 +18,11 @@
       text-align: center;
     }
     .close-btn{
+      margin-bottom: 4em;
         color: grey;
         position: relative;
-        top: -0.5em;
-        right: -20em;
+        top: 3em;
+        right: -21em;
     }
     
    .heading-mode{
@@ -36,6 +37,7 @@
     }
     .format{
         text-align: left;
+        font-size: 1.3em;
         width: 100%; 
         display: flex;
         flex-direction: column;
@@ -48,7 +50,6 @@
         border-radius: 5px;
         width: 30em;
         padding: 1em;
-        margin-top: 1em;
         font-family: var(--font-family-body);
         outline: 0;
        border: 1px solid #747a85;
@@ -57,7 +58,7 @@
         border-radius: 5px;
         width: 10em;
         padding: 1em;
-        margin-top: 1em;
+        
         font-family: var(--font-family-body);
         outline: 0;
        border: 1px solid #747a85;
@@ -75,10 +76,9 @@
         align-items: flex-end;
     }
     .MainBody{
-      margin-bottom: 7em;
       background-color: white;
     }
 .body{
-        margin-top: 1em;
+        margin-top: 6em;
         left: -0.5em;
     } 

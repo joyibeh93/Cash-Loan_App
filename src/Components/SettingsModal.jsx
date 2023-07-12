@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Create.css";
+import "../Styles/Create.css"; 
 
 const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll }) => {
   return (
@@ -32,8 +32,8 @@ const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll }) => {
           placeholder="Short Description"
         />
       </div>
-      <div>
-        <table className="body">
+      <div className="body">
+        <table>
           <thead>
             <th className="MainBody">Variable</th>
             <th className="MainBody"> Operator </th>
@@ -88,7 +88,9 @@ const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll }) => {
               <td><i class="fa fa-trash" aria-hidden="true"></i></td>
             </tr>
           </tbody>
-        </table>
+        </table> 
+        
+        <div>
         <div className="foot-mode">
           <input
             className="form-input"
@@ -97,16 +99,19 @@ const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll }) => {
             
           />
         </div>
-        <div>
-          <div className="foot-mode">
+
+        <div className="foot-mode">
+          <div>
             <input type="radio" />
             <label htmlFor="">All Conditions Must be Met</label>
           </div>
-          <div className="foot-mode">
+          <div>
             <input type="radio" />
             <label htmlFor="">Any of the Condition can be met</label>
           </div>
-          <div>
+        </div>
+
+
             <button
               className="save"
               onClick={() => {
@@ -118,9 +123,8 @@ const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll }) => {
               Save
             </button>
           </div>
-        </div>
       </div>
-    </div>
+   </div> 
   );
 };
 

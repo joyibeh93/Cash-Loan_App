@@ -88,8 +88,8 @@
 }
 .approvedTransparent{
   position:absolute;
-  top:17.rem;
-  left: 32.8rem;
+  top:17.9rem;
+  left: 30.8rem;
  
 }
 .pending {
@@ -106,8 +106,8 @@
 }
 .pendingTransparent{
   position:absolute;
-  top:17.5rem;
-  left: 57.8rem;
+  top:17.8rem;
+  left: 52.1rem;
 
 }
 .rejected {
@@ -121,26 +121,26 @@
 }
 .rejected-icon{
   position:absolute;
-  top:17.4rem;
-  left: 82.5rem;
+  top:17.8rem;
+  left: 72.9rem;
 }
 .approved-black {
   position: absolute;
-  left: 39.5rem;
-  bottom: 27rem;
+  left: 37.5rem;
+  bottom: 23rem;
   width: 1.875rem;
 } 
 .pending-black {
   position: absolute;
-  left: 61.5rem;
-  bottom: 27rem;
+  left: 57.5rem;
+  bottom: 23rem;
   width: 1.875rem;
 }
 
 .rejected-black {
   position: absolute;
-  left: 86.9rem;
-  bottom: 27rem;
+  left: 76.9rem;
+  bottom: 23rem;
   width: 1.875rem;
 } 
 .ddownload-icon{
