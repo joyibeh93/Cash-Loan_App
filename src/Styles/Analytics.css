@@ -45,8 +45,8 @@
 }
 .AnalyticsChart{
     width: 900px;
-    margin-left:20px;
-    background-color:#b9bdc288 ;
+    margin-left:10px;
+    background-color: #e5eaf373; ;
     border: 3px sold var(--credit-score-bg-clr); 
     border-radius: 10px;
 }
