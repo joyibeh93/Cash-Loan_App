@@ -8,7 +8,9 @@ const SignUpStep3page = () => {
     <div className="container">
       <div className="left-side">
         <div className="background-container">
-          <Logo />
+        <div className='logo'>
+            <Logo  />
+          </div>
           <StepsContainer />
         </div>
         <div className="right-side">

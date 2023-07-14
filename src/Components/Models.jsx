@@ -18,85 +18,85 @@ const Models= () => {
           <table>
           <thead>
           <tr >
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>Model Name</th>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>
-              Status<img src={downArrow} alt="" />{' '}
-            </th>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>
-              Date Created <img src={downArrow} alt="" />{' '}
-            </th>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>
-              Created by <img src={downArrow} alt="" />{' '}
-            </th>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>
-              Edit
-            </th>
+              <th >Model Name</th>
+              <th >
+                Status<img src={downArrow} alt="alt-arrow" />{' '}
+              </th>
+              <th >
+                Date Created <img src={downArrow} alt="alt-arrow" />{' '}
+              </th>
+              <th>
+                Created by <img src={downArrow} alt="alt-arrow" />{' '}
+              </th>
+              <th>
+                Edit
+              </th>
             </tr>
           </thead>
           <tbody>
           <tr>
             <td className="dashDown-first-data">
-              < Toggle style={{ paddingLeft: '20px' }} />{' '}
-              <div className="dashDown-data-title"  >
-                <h4 style={{ paddingRight: '16px' }}>Default Model</h4>
+              < Toggle style={{ paddingLeft: '10px' }} />{' '}
+              <div className="dashDown-data-title" style={{paddingLeft:'10px'}}  >
+                <h4>Default Model</h4>
                 <span>Machine Learning AI</span> 
               </div>
             </td >
-            <td style={{ borderBottom: '1px solid #b9bdc2' }}>01 / 04 / 23</td>
+            <td>01 / 04 / 23</td>
             <td>
-              <p className="approved-btn">
-                <img src={approvedTransparent} alt="" style={{ marginRight: '5px', padding:'5px' }} /> Active
+              <p className="dashDown-approved">
+                <img src={approvedTransparent} alt="" /> Active
               </p>
             </td>
             <td>Default</td>
             <td>{Padlock}</td>
             </tr>
             <tr>
-            <td className="dashDown-first-data">
-              <Toggle style={{ paddingLeft: '20px' }} />{' '}
-              <div className="data-title">
-                <h4 style={{ paddingRight: '16px' }}>Alpha Model</h4>
+            <td className="dashDown-first-data" >
+              <Toggle style={{ paddingLeft: '10px' }} />{' '}
+              <div className="data-title" style={{paddingLeft:'10px'}} >
+                <h4>Alpha Model</h4>
                 <span>Priotize Prev.Loans</span>
               </div>
             </td>
             <td>01 / 04 / 23</td>
             <td>
-              <p className="rejected-btn">
-                <img src={rejectedTransparent} alt="" style={{ marginRight: '5px' }} /> inactive
+              <p className="dashDown-rejected">
+                <img src={rejectedTransparent} alt=""  /> inactive
               </p>
             </td>
             <td>Admin</td>
             <td><i class="fa-regular fa-pen-to-square"></i></td>
           </tr>
           <tr>
-            <td className="dashDown-first-data">
-              <Toggle style={{ paddingLeft: '20px' }} />{' '}
-              <div className="data-title">
-                <h4 style={{ paddingRight: '16px' }}>Credit First Model</h4>
+            <td className="dashDown-first-data"  >
+              <Toggle style={{ paddingLeft: '10px' }} />{' '}
+              <div className="data-title" style={{paddingLeft:'10px'}}>
+                <h4 >Credit First Model</h4>
                 <span>Credit Score Main</span>
               </div>
             </td>
             <td>01 / 04 / 23</td>
             <td>
-              <p className="rejected-btn">
-                <img src={rejectedTransparent} alt="" style={{ marginRight: '5px' }} /> inactive
+              <p className="dashDown-rejected">
+                <img src={rejectedTransparent} alt="" /> inactive
               </p>
             </td>
             <td>Gbenga</td>
             <td><i class="fa-regular fa-pen-to-square"></i></td>
           </tr>
           <tr>
-            <td className="dashDown-first-data">
-              <Toggle style={{ paddingLeft: '20px' }} />{' '}
-              <div className="data-title">
-                <h4 style={{ paddingRight: '16px' }}>CSI Model</h4>
+            <td className="dashDown-first-data"  >
+              <Toggle style={{ paddingLeft: '10px' }} />{' '}
+              <div className="data-title"style={{paddingLeft:'10px'}} >
+                <h4>CSI Model</h4>
                 <span>Credit Score Only</span>
               </div>
             </td>
             <td>01 / 04 / 23</td>
             <td>
-              <p className="rejected-btn">
-                <img src={rejectedTransparent} alt="" style={{ marginRight: '5px' }} /> inactive
+              <p className="dashDown-rejected">
+                <img src={rejectedTransparent} alt="" /> inactive
               </p>
             </td>
             <td>Gbenga</td>

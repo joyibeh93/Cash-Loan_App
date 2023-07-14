@@ -1,6 +1,7 @@
 import React from 'react';
 import CheckBoxSteps from './CheckBoxSteps';
 import CheckBox from './CheckBox';
+import '../index.css'
 
 const StepsContainer = () => {
   return (

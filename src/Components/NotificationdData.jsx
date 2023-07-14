@@ -50,7 +50,7 @@ function NotificationdData() {
                 return (
                 <tr key={key}>
                     
-                    <td className='note_td'>
+                    <td className='dashDown-first-data note_td'>
                         <div><input type="checkbox" /></div>
                         <div className='note-cnt'>
                              <p className='noteheader'>{val.noteheader}</p>

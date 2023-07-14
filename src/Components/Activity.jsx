@@ -13,33 +13,33 @@ const Activity = () => {
         <table>
           <thead>
             <tr>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}>Time</th>
-            <th style={{ borderBottom: '1px solid #b9bdc2' }}> Activity</th>
+            <th>Time</th>
+            <th> Activity</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>01 / 04 / 23</td>
-              <td><h4>Password Change</h4>
-              <p>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
+              <td><h4 style={{textAlign:'left',marginBottom:'5px',color:'green'}}>Password Change</h4>
+              <p style={{textAlign:'left'}}>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
               </td>
             </tr>
             <tr>
               <td>01 / 04 / 23</td>
-              <td><h4>Password Change</h4>
-              <p>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
+              <td><h4 style={{textAlign:'left',marginBottom:'5px',color:'green'}}>Password Change</h4>
+              <p style={{textAlign:'left'}}>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
               </td>
             </tr>
             <tr>
               <td>01 / 04 / 23</td>
-              <td><h4>Password Change</h4>
-              <p>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
+              <td><h4 style={{textAlign:'left',marginBottom:'5px',color:'green'}}>Password Change</h4>
+              <p style={{textAlign:'left'}}>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
               </td>
             </tr>
             <tr>
               <td>01 / 04 / 23</td>
-              <td><h4>Password Change</h4>
-              <p>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
+              <td><h4 style={{textAlign:'left',marginBottom:'5px',color:'green'}}>Password Change</h4>
+              <p style={{textAlign:'left'}}>The short term loan of ogbeni Mallami Stutern (0035562) just got approved with a 70% prediction </p>
               </td>
             </tr>
           </tbody>

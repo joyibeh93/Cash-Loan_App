@@ -106,3 +106,8 @@ form p {
   font-size: 0.8rem;
   cursor: pointer;
 }
+.logo{
+  position: absolute;
+  top:397px;
+  left:175px;
+}

@@ -1,58 +1,59 @@
-.bvn-header {
-   margin-left: 3.125rem;
-  }
-  
-  .bvn-container {
-    max-width: 37.5rem;
-    /*margin: 0 auto;
-    padding: 25px;*/
-    border: 1px solid grey;
-    background-color: #f2f2f2;
-    max-height: 14.395rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0.625rem 3.125rem;
-    border-radius: 5px;
-    padding: 0px 40px;
-  }
-  
-  
-  .input-field {
-    width: 90%;
-    padding: 0.625rem 0.3125rem;
-    border-radius: 0;
-    border:1px solid black;
-  }
-  .file-field{
-    padding:0 0.3125rem 1.5625rem 0px;
-    border: none;
-  }
-  
-  .submit-button {
-    width: 35%;
-    padding: 12px;
-    background-color: black;
-    color: white;
-    display: block;
-    margin-bottom: 1.5625rem;
-  }
-  .btn-file-submit{
-    margin-bottom: 5rem;
-  }
-  .bank-statement{
-    margin-top: 4.375rem;
-  }
-  .bank-details{
-    padding: 0;
-  }
-  .upload-pdf{
-    padding-top: 0.625rem;
-  }
+.form-containerss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 530px;
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 25px;
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+}
+.bvn-h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.bvn_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
 
-  h3 {
-    /* margin-top: 10px; */
-    border-bottom: 1px solid black ;
-  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* .row {
+  margin-bottom: 10px;
+} */
+
+.bvn-h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+ 
+}
+
+button {
+  margin-top: 10px;
+}
+.bvn-default{
+  width: 100%;
+}
+.bvn-default,
+select[type="text"] {
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.info-submit {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
   
   

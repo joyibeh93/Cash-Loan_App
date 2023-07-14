@@ -1,6 +1,5 @@
-
-:root {
   /*** background colors ***/
+:root {
   --main-bg-clr: #f7f7f7;
   --otp-bg-clr: #dfdede;
   --input-bg-clr: #b9bdc2;
@@ -50,7 +49,7 @@
 }
 .sidebarlogo1{
   margin-top: 7px;
-  margin-left: -15px;
+  margin-left: -29px;
 }
 .sidelogo1{
   width: 20px;
@@ -58,13 +57,6 @@
 .sidelogo2{
   width:90px;
 } 
-.sidebar-items1 {
-  position: absolute;
-  top: 3.5rem;
-  left: 2rem;
-  color: #fff;
-  margin-top: 2rem;
-}
 
 .links {
   display: flex;
@@ -108,12 +100,12 @@
 }
 .logout-div{
   margin-left: 2rem;
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 .log-out {
   
   font-size: 1.2rem;
-  color:var(--steps-clr) 
+  color:var(--steps-clr);
 }
 
 .links.active {
@@ -122,36 +114,3 @@
     padding: 0.5rem;
 }
 
-
-.links p {
-  margin-left: 1rem;
-  color: var(--steps-clr);
-}
-
-.sidebar-items2 {
-  position: absolute;
-  top: 18rem;
-  left: 2rem;
-}
-
-.p-red,
-.p-green {
-  height: 1.34rem;
-  width: 1.34rem;
-  border-radius: 50%;
-  font-size: 0.9375rem;
-  background-color: var(--defaulted-bg-clr);
-  text-align: center;
-}
-
-.p-green {
-  background-color: var(--approved-btn-bg-clr);
-}
-
-.log-out {
-  position: absolute;
-  top: 15rem;
-  left: 2rem;
-  font-size: 1.2rem;
-  color: var(--steps-clr);
-} 

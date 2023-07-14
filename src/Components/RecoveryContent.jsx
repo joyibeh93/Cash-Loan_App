@@ -27,7 +27,7 @@ const DashBoard1_Down = () => {
              </div>
          </div>
      
-    <div className="dashDown-Table" >
+    <div className="dashDown-Table" style={{width:'950px'}}>
       <div className="dashDown-tablehead">
         <div className='dashDown-h3' >
           <h3 >All Applications</h3> <br />
@@ -63,7 +63,7 @@ const DashBoard1_Down = () => {
               <img src={userIcon} alt="user-icon" />
               <div className="data-title"  >
                 <h4>Ogbeni Malani</h4>
-                <Link to="/applicantinfo" > ID-202390112 </Link>
+                <Link to="/applicantinfo" >ID-202390112 </Link>
               </div>
             </td >
             <td >02 / 04 / 23</td>
@@ -84,7 +84,7 @@ const DashBoard1_Down = () => {
               <img src={userIcon} alt="user-icon" />{' '}
               <div className="data-title">
                 <h4>Muktarr Bello</h4>
-                <Link to="/applicantinfo"> ID-202390113 </Link>
+                <Link to="/applicantinfo">ID-202390113</Link>
                 {/* <span>more info</span> */}
               </div>
             </td>
@@ -104,7 +104,7 @@ const DashBoard1_Down = () => {
               <img src={userIcon} alt="user-icon"/>{' '}
               <div className="data-title">
                 <h4 >Ekere Stutern</h4>
-                <Link to="/applicantinfo"> ID-202390113 </Link>
+                <Link to="/applicantinfo">ID-202390113</Link>
                 {/* <span>more info</span> */}
               </div>
             </td>
@@ -126,7 +126,7 @@ const DashBoard1_Down = () => {
               <img src={userIcon} alt="user-icon"  />{' '}
               <div className="dashDown-data-title"  >
                 <h4>Rukaya Stutern</h4>
-                <Link to="/applicantinfo" > ID-202390114 </Link>
+                <Link to="/applicantinfo" >ID-202390114</Link>
               </div>
             </td >
             <td>02 / 04 / 23</td>
@@ -147,7 +147,7 @@ const DashBoard1_Down = () => {
               <img src={userIcon} alt="user-icon"/>{' '}
               <div className="data-title">
                 <h4 >Muktarr Stute</h4>
-                <Link to="/applicantinfo"> ID-202390115 </Link>
+                <Link to="/applicantinfo">ID-202390115</Link>
                 {/* <span>more info</span> */}
               </div>
             </td>
