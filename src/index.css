@@ -35,8 +35,8 @@
   --font-family-body: 'Inter', sans-serif;
   --font-size: 1rem;
 }
-
-*,
+@media (min-width: 1024px){
+  *,
 *::after,
 *::before {
   box-sizing: border-box;
@@ -201,4 +201,6 @@ a {
 button {
   font-family: var(--font-family-body);
   font-size: 1rem;
+}
+
 }
