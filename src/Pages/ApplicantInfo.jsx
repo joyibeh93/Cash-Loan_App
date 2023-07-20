@@ -21,7 +21,7 @@ const ApplicantDetails = () => {
         <div className='content-container'>
           <UserInfo/>
         </div>
-        <div className='chart'>
+        <div className='chart dashDown-Table'>
          <PieChart/>
          <Chart/>
          </div>

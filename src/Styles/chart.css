@@ -2,12 +2,12 @@
 .pie{
     width: 16em;
     border: gray;
-    background-color:white;
+    background-color:#f7f7f7;;
     
 }
 .bar{
     width: 33em;
-    background-color: white;
+    background-color: #f7f7f7;;
     
 }  
 .doughnut{
@@ -18,7 +18,7 @@
 
 .pie-p{
     display: flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
 }
 
 .link{
@@ -42,13 +42,13 @@ display: flex;
   padding: 0.5rem;
   border-bottom: 1px solid #8a85852f;
 
-  border-width: 100%;
+  border-width: 105%;
  
 }
 .previousTable{
     margin: 0 auto;
-    width:80%;
-    background-color: #f0f0f0;
+    width:85%;
+    background-color: #f7f7f7
 }
 .rejected-down{
     display: flex;

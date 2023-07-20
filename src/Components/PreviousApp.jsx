@@ -7,7 +7,7 @@ import rejectedTransparent from '../assets/rejected-transparent.svg';
 
 const PreviousApp = () => {
   return (
-    <div className ='previousTable'>
+    <div className ='previousTable dashDown-Table'>
        <div className="tablehead">
         <div>
           <h3>Previous Loan Applications</h3>
@@ -41,7 +41,7 @@ const PreviousApp = () => {
             </td>
             <td>20237899</td>
             <td>
-              <p className="rejected-down">
+              <p className="dashDown-rejected">
                 <img src={rejectedTransparent} alt="" /> Defaulted
               </p>
             </td>
