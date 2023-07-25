@@ -5,7 +5,7 @@ import MsgForm from "./MsgForm";
 import ThreadForm from "./ThreadForm";
 import Modal from "./Modal";
 
-function MessageContent() {
+function MessageContent( props) {
   const [message, setMessage] = useState("inbox");
   const [markAllClicked, setMarkAllClicked] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
@@ -104,7 +104,7 @@ function MessageContent() {
       ) : message === "thread" ? (
         <ThreadForm />
       ) : (
-        <Inbox />
+        <Inbox data={props}/>
       )}
     </div>
   );

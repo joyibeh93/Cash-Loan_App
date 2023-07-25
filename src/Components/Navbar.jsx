@@ -42,7 +42,7 @@ import '../Styles/navbar.css';
 import bellIcon from '../assets/Bell-icon.svg';
 import { useNavigate } from 'react-router-dom';
 
-function Navbar({ searchTerm, onSearchChange }) {
+function Navbar({ searchTerm, onSearchChange,firstName,lastName}) {
   const navigate = useNavigate();
 
   const handleBellIconOnClick = () => {
@@ -66,7 +66,7 @@ function Navbar({ searchTerm, onSearchChange }) {
           <img src={usericon} alt="user-icon" className="navbar-userIcon" />
         </div>
        <div className="name-desc">           
-          <p>Gbenger Stutern</p>
+          <p>{firstName} {lastName}</p>
           <p> Loan Analytics</p>
         </div>
       </div>

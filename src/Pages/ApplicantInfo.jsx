@@ -6,8 +6,10 @@ import PieChart from '../Components/PieChart';
 import PreviousApp from '../Components/PreviousApp';
 import UserInfo from '../Components/UserInfo';
 import { Link } from 'react-router-dom'
+//import { useLocation } from 'react-router-dom';
 
 const ApplicantDetails = () => {
+
   return (
   <div>
      <div className="dashboard-container">

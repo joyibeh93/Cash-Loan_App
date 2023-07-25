@@ -9,7 +9,7 @@ import rejectedBlack from '../assets/rejectedblack.svg';
 import { useNavigate } from 'react-router-dom';
 
 //function MainDashboard() {
-  const MainDashboard = () => {
+  const MainDashboard = ({firstName}) => {
     const navigate = useNavigate();
     const handleNewButtonClick = () => {
       navigate("/bvn");
@@ -20,7 +20,7 @@ import { useNavigate } from 'react-router-dom';
       <p>Dashboard</p>
       <div className="notification">
         <div className='dash-welcomenote'>
-          <h1 className='notifctn-header1'>Hello Gbenga</h1><br/>
+          <h1 className='notifctn-header1'>Hello {firstName}</h1><br/>
           <p>
             Welcome back you have <strong style={{fontWeight:'bold',fontSize:"16px"}}> 13 </strong> New Notification
           </p>

@@ -83,13 +83,13 @@
     font-weight: bold;
 }
 
-.body{
+/* .body{
     position: relative;
     left: 3em;
     top: -5em;
     font-size: 15px;
     color: #1c2b42;
-}
+} */
 
 .up-angle{
     position: relative;
@@ -101,7 +101,7 @@
 textarea{
     position: relative;
     top: 5em;
-    left: -6em;
+    left:  0.3em;
     border-radius: 5px;
     border: none;
 }

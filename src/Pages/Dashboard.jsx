@@ -26,6 +26,7 @@
 
 // export default Dashboard;
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import '../Styles/Dashboard.css';
 import Sidebar from '../Components/Sidebar';
 import Navbar from '../Components/Navbar';
@@ -34,6 +35,10 @@ import DashBoardDown from '../Components/Dashboard1_down';
 import data from '../Components/datainfo';
 
 const Dashboard = () => {
+  const location = useLocation();
+  const firstName = location?.state?.firstName || 'Gbenga';
+  const lastName = location?.state?.lastName || 'Stutern';
+  
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState([]);
 
@@ -64,10 +69,18 @@ const Dashboard = () => {
       </div>
       <div className="main-dashboard">
         <div className="top-bar">
-          <Navbar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+          <Navbar 
+            searchTerm={searchTerm}
+            onSearchChange={handleSearchChange}
+            firstName={firstName}
+            lastName={lastName}
+             />
         </div>
         <div className="content-container">
-          <MainDashboard data={filteredData} />
+          <MainDashboard 
+          data={filteredData} 
+          firstName={firstName}
+          />
           <DashBoardDown data={filteredData} />
         </div>
       </div>

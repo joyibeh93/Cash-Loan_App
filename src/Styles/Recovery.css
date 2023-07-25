@@ -62,3 +62,16 @@
     margin-right: 0.625rem;
     padding: 0.625rem;
   } */
+  /* mediaQuery */
+  @media screen and (max-width: 768px) {
+    .dashboard-container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .dashboard-content {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+}

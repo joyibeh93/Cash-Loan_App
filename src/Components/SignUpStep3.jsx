@@ -503,7 +503,7 @@ const SignIn = () => {
       if (isAuthenticated) {
         // Store the email in session storage
         //sessionStorage.setItem('email', values.email);
-        navigate('/dashboard');
+        navigate('/dashboard',{state:{firstName, lastName}});
         //navigate(`/dashboard?email=${encodeURIComponent(email)}`);
       }
     } catch (error) {
