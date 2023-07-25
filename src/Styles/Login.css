@@ -79,3 +79,46 @@
   margin-top: 3em;
   font-size: 0.8rem;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 768px)  {
+  .left-side{
+    display: none;
+  }
+  .right-side{
+  width: 50%;
+  }
+  .login-container{
+    padding: 0 1rem;
+  }
+  .form-login {
+    width: 50%;
+    }
+    .loginheader {
+      display: block;
+      text-align: center;
+  }
+  .login-input{
+    width: 90vw;
+  }
+  .login-btn{
+    width: 90vw;
+  }
+ 
+  .footnote .footnote2{
+    margin-top: 50px;
+    margin-right: 0;
+  }
+  /* .question-modal {
+    width: 90%;
+  }.close-modal{
+    top: -0.5rem;
+    right: -1rem;
+  }
+  .good{
+    margin-bottom: 1rem;
+  }
+  .close-modal h3{
+    margin-bottom: 1rem;
+  } */
+  }

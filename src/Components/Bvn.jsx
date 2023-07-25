@@ -115,7 +115,7 @@ const navigate = useNavigate();
 
           <div className="column">
             <div className="row">
-              <h3>State Of Origin</h3>
+              <h3 className="bvn-h3">State Of Origin</h3>
               <Field
                 as="select"
                 type="text"

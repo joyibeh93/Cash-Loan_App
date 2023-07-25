@@ -44,7 +44,7 @@ const PieChart = ({ color, Anlytper }) => {
       ctx.fillText(Anlytper || score, xCoor, yCoor - 10);
   
   
-      ctx.font = ' bolder 20px sans-serif';
+      ctx.font = ' bolder 10px sans-serif';
       ctx.fillStyle = 'grey';
       ctx.fillText('credit Score ', xCoor,yCoor + 10);
 

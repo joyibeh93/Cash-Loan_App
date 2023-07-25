@@ -163,10 +163,18 @@ const handleSubmit =  async (values, { setSubmitting }) =>{
       }
     );
     const isAuthenticated = response.data; // Get authentication status from response
+
     console.log(isAuthenticated);
+    
     if (isAuthenticated) {
+      
+      const firstName= response.data.firstName;
+      const lastName= response.lastName;
+      console.log(firstName,lastName)
+      
       // If user is authenticated, pass the loginToApp function as a prop to the parent component
-      navigate('/dashboard'); // Navigate to the next page
+      navigate('/dashboard',{state:{firstName, lastName}}); // Navigate to the next page
+      
     }
   } catch (error) {
     console.error("Error:", error);

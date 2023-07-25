@@ -7,8 +7,6 @@ import Chart from './Chart'
 import '../Styles/Analytics.css'
 
 
-
-
 function AnalyticsContent() {
     
 const colors=['red','white']
@@ -39,11 +37,11 @@ const AnlytScore='15%'
             <AnalyticsLineChart/>
         </div>
         <div className='chartAnalystics'>
-            <div>
+            <div className='chartAnalystics1'>
                 <PieChart color={colors} Anlytper={AnlytScore}/>
 
             </div>
-            <div>
+            <div className='chartAnalystics1'>
                 <Chart/>
 
             </div>

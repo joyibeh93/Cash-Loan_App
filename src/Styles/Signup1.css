@@ -95,11 +95,17 @@
 /* responsive */
 @media screen and (max-width: 768px) {
   .signup1-container {
-    max-width: 90%;
+    max-width: 50%;
     margin: 0 auto;
   }
 
   .form-container-signup1 {
-    padding-top: 80px;
+   
+    max-width: 60%;
   }
+  form-signup1 {
+    width: 25em;
+    
+}
+ 
 }
