@@ -27,8 +27,11 @@ import ReviewPage from './Pages/ReviewPage';
 import Analytics from './Pages/Analytics';
 import Recovery from './Pages/Recovery';
 import Settings from './Pages/Settings';
+import ApplicationData from './Components/ApplicationData';
 
 function App() {
+<ApplicationData/>
+
   return (
     <Router>
       <Routes>
@@ -55,7 +58,11 @@ function App() {
         <Route path="/application" element={<Application />} />
         <Route path="/message" element={<Message />} />
         {/* <Route path="/resetpassword3" element={<ResetPassword3page />} /> */}
-        <Route path="/applicantinfo" element={<Applicantinfo />} />
+
+        <Route path="/applicantinfo/:id" element={<Applicantinfo />} />
+
+
+
         <Route path="/notification" element={<Notification />} />
         <Route path="/review" element={<ReviewPage />} />
         <Route path="/setting" element={<Settings />} />

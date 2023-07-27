@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 90px;
   width: 100%;
 }
 .form-login {
@@ -66,7 +67,7 @@
 .login-eye {
   position: absolute;
   top: 19.5rem;
-  left: 73.4rem;
+  left: 73rem;
 }
 
 .footnote {

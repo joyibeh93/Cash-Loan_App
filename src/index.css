@@ -64,9 +64,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
   height: 100vh;
-  /* margin-left: 7.25em; */
+  padding-left:5em;
 }
 
 /********************* blue backround section *************************/
@@ -130,7 +130,7 @@ a {
   cursor: pointer;
   height: 28px;
   margin-top: 0.7em;
-  left: 18em;
+  left: 17em;
   position: absolute;
   width: 28px;
 }

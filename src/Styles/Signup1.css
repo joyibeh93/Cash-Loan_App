@@ -100,10 +100,14 @@
   }
 
   .form-container-signup1 {
-   
-    max-width: 60%;
+
+    max-width: 100%;
   }
-  form-signup1 {
+  .form-container-signup1 h1{
+font-size: 1.5em;
+  }
+
+  .form-signup1 {
     width: 25em;
     
 }

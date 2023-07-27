@@ -100,19 +100,19 @@
   .appr-black {
     position: absolute;
     left: 36.5rem;
-    bottom: 28rem;
+    bottom: 26rem;
     width: 1.875rem;
   }
   .pend-black {
     position: absolute;
     left: 54.5rem;
-    bottom: 28rem;
+    bottom: 26rem;
     width: 1.875rem;
     background-color:var(--pending-btn-bg-clr)
   }
   .rej-black {
     position: absolute;
     left: 75.9rem;
-    bottom: 28rem;
+    bottom: 26rem;
     width: 1.875rem;
   }

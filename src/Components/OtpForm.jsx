@@ -77,7 +77,8 @@ const OtpForm = () => {
 
   return (
     
-    <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={submitForm}>
+    <div className='otpform-container'>
+        <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={submitForm}>
       {({ isSubmitting }) => (
         <Form>
           <div className="OtpForm">
@@ -113,6 +114,9 @@ const OtpForm = () => {
         </Form>
       )}
     </Formik>
+
+    </div>
+    
   );
 };
 

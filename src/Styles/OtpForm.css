@@ -111,3 +111,27 @@ form p {
   top:397px;
   left:175px;
 }
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .left-side{
+    display: none;
+  }
+  .right-side{
+  width: 40%;
+  
+  }
+  .otpform-container form{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .OtpForm {
+    
+    width: 30%;
+    
+  }
+  
+
+
+ 
+}
