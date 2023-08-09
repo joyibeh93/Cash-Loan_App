@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react'
+import { useLocation } from 'react-router-dom';
 import MessageContent from '../Components/MessageContent'
 import '../Styles/Dashboard.css';
 import Sidebar from '../Components/Sidebar';
@@ -10,6 +11,9 @@ import messagesData from '../Components/MessageData';
 function Message() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState([]);
+  const location = useLocation();
+  const firstName = location?.state?.firstName || 'Gbenga';
+  const lastName = location?.state?.lastName || 'Stutern';
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -34,7 +38,11 @@ function Message() {
       </div>
       <div className="main-dashboard">
         <div className="top-bar">
-          <Navbar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+          <Navbar 
+          searchTerm={searchTerm} 
+          onSearchChange={handleSearchChange} 
+          firstName={firstName}
+          lastName={lastName}/>
         </div>
         <div className="content-container">
         <MessageContent data={filteredData} />

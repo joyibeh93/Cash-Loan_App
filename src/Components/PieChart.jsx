@@ -13,7 +13,7 @@ ChartJs.register(
   Tooltip,
   Legend
 );
-const PieChart = ({ color, Anlytper }) => {
+const PieChart = ({ color, Anlytper,modeRange }) => {
   const defaultColor = ['#249c56', 'white'];
   const score = '720';
   const data = {
@@ -57,8 +57,8 @@ const PieChart = ({ color, Anlytper }) => {
     <div>
       <div className="container-pie">
     <div className='pie'>
-      <h4>Credit Score</h4>
-      <h6>FICO Model</h6>
+      <p>Credit Score</p>
+      <p>FICO Model</p>
       <hr />
       <div classname='doughnut'>
         <Doughnut
@@ -69,7 +69,7 @@ const PieChart = ({ color, Anlytper }) => {
         >
 
         </Doughnut>
-        <p className='pie-p'>(720 - 850)
+        <p className='pie-p'>(720 - 850) 
           <button className="approved">
             {' '}
             <img src={approvedTransparent} alt="approved-icon" /> Excellent

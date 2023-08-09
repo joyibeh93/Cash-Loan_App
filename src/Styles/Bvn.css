@@ -1,4 +1,4 @@
-.form-containerss {
+/*.form-containerss {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,10 +29,6 @@
   gap: 5px;
 }
 
-/* .row {
-  margin-bottom: 10px;
-} */
-
 .bvn-h3 {
   margin: 5px 0;
   font-size: 15px;
@@ -60,8 +56,103 @@ select[type="text"] {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 15px;
+}*/
+
+.form-containerss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 25px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 20px;
 }
 
+.bvn-h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.bvn_form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+/* Media query for tablets and larger devices */
+@media (min-width: 768px) {
+  .bvn_form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bvn-h3 {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+button.info-submit {
+  background-color: rgb(34, 32, 32);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ensures the form fields take up the full width on all screen sizes */
+.bvn-default,
+select[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid hwb(0 22% 77% / 0.932);
+}
+
+/* Margin to the button on smaller screens */
+@media (max-width: 768px) {
+  button.info-submit {
+    margin-top: 20px;
+  }
+}
+
+/* Styling for top navigation */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item li {
+  margin-right: 20px;
+}
+
+.nav-item li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.nav-item li a:hover {
+  color: rgb(34, 32, 32);
+}
 
 
 /*.bvn-header {

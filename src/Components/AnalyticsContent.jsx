@@ -11,6 +11,8 @@ function AnalyticsContent() {
     
 const colors=['red','white']
 const AnlytScore='15%'
+const modeRange='250-719'
+
         
   return (
     <div>
@@ -38,7 +40,10 @@ const AnlytScore='15%'
         </div>
         <div className='chartAnalystics'>
             <div className='chartAnalystics1'>
-                <PieChart color={colors} Anlytper={AnlytScore}/>
+                <PieChart 
+                color={colors}
+                Anlytper={AnlytScore}
+                mode={modeRange} />
 
             </div>
             <div className='chartAnalystics1'>

@@ -37,7 +37,7 @@
 .login-btn{
   font-family: var(--font-family-body);
   background-color: var(--submit-btn-bg-clr);
-  padding: 0.6em;
+  padding: 0.8em;
   outline: none;
   border-radius: 0.5em;
   text-align: center;

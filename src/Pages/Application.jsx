@@ -24,6 +24,7 @@
 // export default Application
 
 import React, { useState, useCallback } from 'react';
+import { useLocation } from 'react-router-dom';
 import Sidebar from '../Components/Sidebar';
 import Navbar from '../Components/Navbar';
 import ApplicationContent from '../Components/ApplicationContent';
@@ -32,6 +33,9 @@ import ApplicationData from '../Components/ApplicationData';
 function Application() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState(ApplicationData); // Initially, use the entire data
+  const location = useLocation();
+  const firstName = location?.state?.firstName || 'Gbenga';
+  const lastName = location?.state?.lastName || 'Stutern';
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -62,7 +66,11 @@ function Application() {
       </div>
       <div className="main-dashboard">
         <div className="top-bar">
-          <Navbar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+          <Navbar 
+          searchTerm={searchTerm} 
+          onSearchChange={handleSearchChange}
+          firstName={firstName}
+          lastName={lastName} />
         </div>
         <div className="content-container">
           <ApplicationContent filteredData={filteredData} />

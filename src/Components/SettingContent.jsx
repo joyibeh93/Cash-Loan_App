@@ -5,17 +5,28 @@ import Security from "./Security";
 import Activity from "./Activity";
 import { useState } from "react";
 import SettingsModal from "./SettingsModal";
+import DataVisualization from './DataVisualisation';
+import { useNavigate } from "react-router-dom";
+
 
 const SettingContent = () => {
   const [setting, setSetting] = useState(false);
   const [markAllClicked, setMarkAllClicked] = useState(false);
   const [settingsModalOpen, setSettingsModalOpen] = useState(false);
   const [ clickAll, setClickAll] = useState(false);
+  const [userInputData, setUserInputData] = useState(null);
+  const navigate= useNavigate()
 
   const handleMarkAllClick = () => {
     setMarkAllClicked(!markAllClicked);
     setClickAll(true);
   };
+  const handleSaveNavigation=(data)=>{
+    setUserInputData(data)
+    const encodedData = encodeURIComponent(JSON.stringify(data));
+    navigate(`/LoanPrediction?data=${encodedData}`);
+
+  }
 
 
   return (
@@ -25,6 +36,7 @@ const SettingContent = () => {
           closeModal={setSettingsModalOpen}
           setMarkAllClicked={setMarkAllClicked}
           setClickAll = {setClickAll}
+          onSave={handleSaveNavigation}
         />
       )}
          <div className="msg-top-bar">
@@ -126,7 +138,9 @@ const SettingContent = () => {
         ) : (
           <Activity />
         )}
+          {userInputData && <DataVisualization data={userInputData} />}
       </div>
+    
   );
 };
 

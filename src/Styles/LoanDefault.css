@@ -1,4 +1,4 @@
-.form-containersss {
+/*.form-containersss {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,10 +26,6 @@
   gap: 5px;
 }
 
-/* .row {
-  margin-bottom: 10px;
-} */
-
 .predict-h3 {
   margin: 0;
   font-size: 20px;
@@ -53,4 +49,69 @@ select[type="text"] {
   background-color: black;
   color: white;
   padding: 5px;
+}*/
+
+.form-containersss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 25px;
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+}
+
+.predict-h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.Loan_form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+/* Media query for tablets and larger devices */
+@media (min-width: 768px) {
+  .Loan_form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.predict-h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button.default-submit {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Ensures the form fields take up the full width on smaller screens */
+.loan-default,
+select[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Margin to the button on smaller screens */
+@media (max-width: 768px) {
+  button.default-submit {
+    margin-top: 20px;
+  }
 }

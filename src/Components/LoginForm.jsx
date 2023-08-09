@@ -168,7 +168,7 @@ const handleSubmit =  async (values, { setSubmitting }) =>{
     
     if (isAuthenticated) {
       
-      const firstName= response.data.firstName;
+      const firstName= response.data.user.firstName;
       const lastName= response.lastName;
       console.log(firstName,lastName)
       
