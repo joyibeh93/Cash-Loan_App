@@ -151,8 +151,7 @@
 import React from "react";
 import "../Styles/Create.css";
 import Deleteicon from '../assets/delete-icon.png';
-//import DataVisualization from './DataVisualisation';
-//import { useNavigate } from "react-router-dom";
+
 
 
 const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll,onSave}) => {
@@ -313,10 +312,9 @@ const SettingsModal = ({ closeModal, setMarkAllClicked, setClickAll,onSave}) => 
         
        <div>
       <div className="foot-mode">
-                <input
-                             className="form-input"
-           type="text"
-          placeholder="Add New Value    +" 
+                <input className="form-input"
+                 type="text"
+                 placeholder="Add New Value    +" 
             
         />
      </div>

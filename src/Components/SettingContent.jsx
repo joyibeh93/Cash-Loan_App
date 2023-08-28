@@ -21,6 +21,7 @@ const SettingContent = () => {
     setMarkAllClicked(!markAllClicked);
     setClickAll(true);
   };
+
   const handleSaveNavigation=(data)=>{
     setUserInputData(data)
     const encodedData = encodeURIComponent(JSON.stringify(data));
@@ -28,6 +29,7 @@ const SettingContent = () => {
 
   }
 
+  
 
   return (
     <div className="messageContent" >
@@ -138,7 +140,7 @@ const SettingContent = () => {
         ) : (
           <Activity />
         )}
-          {userInputData && <DataVisualization data={userInputData} />}
+          {userInputData && <DataVisualization data={userInputData} creditScore={userInputData.variables[0].value}  />}
       </div>
     
   );
